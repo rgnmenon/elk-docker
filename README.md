@@ -14,8 +14,9 @@ The goal of the project is to set up a dockerized version of Logstash to gather 
 * Kibana: Web interface for searching and visualizing logs, which will be proxied through haproxy.
 * Filebeat: Installed on client servers that will send their logs to Logstash.
 
+base url:(https://github.com/gvenka008c/elk-docker/blob/master/images/ELK%20Stack.png)
 
-![alt tag] (https://github.com/gvenka008c/elk-docker/blob/master/images/ELK%20Stack.png)
+![alt tag] (https://github.com/rgnmenon/elk-docker/blob/master/images/ELK%20Stack.png)
 
 
 #Versions:
@@ -30,13 +31,13 @@ The goal of the project is to set up a dockerized version of Logstash to gather 
 1) Clone the elk-docker repo
    
 ```
- git clone https://github.com/gvenka008c/elk-docker.git
+ git clone https://github.com/rgmenon/elk-docker.git
 ```
 
 2) To build the docker image from Dockerfile, follow the below steps
 
 ```
- #cd gvenka008c/elk-docker
+ #cd rgnmenon/elk-docker
  # docker build -t elk-docker .
 ```
 
